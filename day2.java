@@ -16,7 +16,7 @@ public class day2 {
     }
 // Using New Custom Method :
     public static void SI(int p, int r, int t) {
-        double si = (p*r*t)/100;
+        int si = (p*r*t)/100;
         System.out.println("Your Simple Interest/Profit in "+t+" Year is: "+si);
     }
 }
